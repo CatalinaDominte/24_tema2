@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3.ProductsTable</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+		<body>
+			<table border="1">
+				<thead>
+					<tr class="title">
+						<td colspan="6">Drag a column header and drop it here to group by that column</td>
+					</tr>
+					<tr class="colTitles">
+						<td>Product ID</td>
+						<td>Product Name</td>
+						<td>Unite Price</td>
+						<td>Quontaty per unit</td>
+						<td>Units in stock</td>
+						<td>Discontinued</td>
+					</tr>
+					<tr class="search">
+						<td><input type="text" name="productIDSearch" value=""/></td>
+						<td><input type="text" name="productName" value=""/></td>
+						<td><input type="text" name="unitsPrice" value=""/>
+						<input type="image" src="image/Sort.png"name="image" alt="Submit"/></td>
+						
+						
+						<td><input type="text" name="quontatyPerUnit" value=""/></td>
+						<td><input type="text" name="unitsInStock" value=""/>
+						 <input type="image" src="image/Sort.png"name="image" alt="Submit"/>
+						 </td>
+						<td><input type="checkbox" name="discontinued" value=""/>
+						<input type="image" src="image/Sort.png"name="image" alt="Submit"/>
+						</td>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="2">
+							<input type="image" src="image/Arrow.png"name="previous" alt="Previous"/>
+							<input type="image" src="image/Arrow2.png"name="previous" alt="Next"/>
+							<a href="#" class="chosen">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a href="#">6</a>
+							<a href="#">7</a>
+							<a href="#">8</a>
+							<a href="#">9</a>
+							<a href="#">10</a>
+							<span>...</span>
+							<input type="image" name="image/Left.png" alt="Right"/>
+							<input type="image" name="image/Left2.png" alt="Left"/>
+						</td>
+						<td colspan="2">
+							<span>Page size:</span>
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td colspan="2" class="allPages"><span>335104 items in 33511 pages</span></td>
+					</tr>
+					
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Chai</td>
+						<td>$18.00</td>
+						<td>10 boxes x 20 bags</td>
+						<td>39</td>
+						<td><input type="checkbox" name="discontinued" disabled="disabled" /></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Chang</td>
+						<td>$19.00</td>
+						<td>24 - 12 oz bottles</td>
+						<td>17</td>
+						<td><input type="checkbox" name="discontinued" disabled="disabled" /></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Aniseed Syrup</td>
+						<td>$10.00</td>
+						<td>12 - 550 ml bottles</td>
+						<td>13</td>
+						<td><input type="checkbox" name="discontinued" disabled="disabled" /></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Chef Anton's  </td>
+						<td>$22.00</td>
+						<td>48-6 oz jars</td>
+						<td>53</td>
+						<td><input type="checkbox" name="discontinued" disabled="disabled" /></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Chef Antons' Gumbo Mix</td>
+						<td>$21.35</td>
+						<td>36 boxes</td>
+						<td>0</td>
+						<td><input type="checkbox" name="discontinued" disabled checked="checked" /></td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Grandma's Spread</td>
+						<td>$25.00</td>
+						<td>12-8 oz jars</td>
+						<td>120</td>
+						<td><input type="checkbox" name="discontinued" disabled="disabled" /></td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>Uncle Bob's Organic Pears</td>
+						<td>$30.00</td>
+						<td>12-1 lb pkgs.</td>
+						<td>15</td>
+						<td><input type="checkbox" name="discontinued" disabled = "disabled" /></td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>Northswood Sauce</td>
+						<td>$40.00</td>
+						<td>12-12 oz jarz</td>
+						<td>6</td>
+						<td><input type="checkbox" name="discontinued" disabled = "disabled" /></td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Mishi Kobe </td>
+						<td>$97.00</td>
+						<td>18-500 g pkgs.</td>
+						<td>29</td>
+						<td><input type="checkbox" name="discontinued" disabled="disabled" checked="check" /></td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Ikura</td>
+						<td>$31.00</td>
+						<td>12-200 ml jars</td>
+						<td>31</td>
+						<td><input type="checkbox" name="discontinued" disabled = "disabled" /></td>
+					</tr>
+								
+				</tbody>
+			</table>
+		</body>
+</html>
+

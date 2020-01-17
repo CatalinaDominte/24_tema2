@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>HTML Table</title>
+--<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="" action="">
+<table border="2" align="center" width="400px"  >
+
+<tr>
+<th>First Name</th>
+<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name"  required/></td>
+</tr>
+<tr>
+<th>Last Name</th>
+<td><input type="text"/></td>
+</tr>
+<tr>
+    <th>Address</th>
+    <td><textarea rows="5" cols="25"></textarea></td>
+    </tr>
+    <th>City</th>
+    <td><input type="text"/></td>
+    </tr>
+    <th>Zip/Postal Code</th>
+<td><input type="text"/></td>
+</tr>
+<tr>
+    <th>Country</th>
+    <td>
+    <select name="country">
+    <option value="" selected="selected" disabled="disabled">Select your country</option>
+    <option value="1">Romania</option>
+    <option value="2">Pakistan</option>
+    <option value="3">USA</option>
+    <option value="4">Ukraina</option>
+    <option value="5">Italy</option>
+    <option value="6">UK</option>
+    <option value="7">Spain</option>
+    <option value="8">India</option>
+    </select>
+    </td>
+    </tr>
+    
+<tr>
+<th>Enter your mobile</th>
+<td><input type="number"/></td>
+</tr>
+<th> E-mail</th>
+<td><input type="email"/></td>
+</tr>
+<th>Birth date</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+<th>Gender</th>
+    <td>
+    <select name="gender">
+    <option value="1">male</option>
+    <option value="2">female</option>
+    </td>
+</tr>
+
+
+<tr>
+<th>Starting Dates</th>
+<td>
+Spring 2006<input type="checkbox" name="x[]" value="Spring"/>
+Summer 2006<input type="checkbox" name="x[]" value="Summer"/>
+</td>
+</tr>
+<tr>
+    <th>Coments/Questions</th>
+    <td><textarea rows="5" cols="25"></textarea></td>
+</tr>
+    
+
+<td colspan="2" align="center"><input type="submit" value="Submit"/>
+<input type="reset" value="Clear This Form"/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
